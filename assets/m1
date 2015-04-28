@@ -1,0 +1,2 @@
+3、与Activity通信
+尽管Fragment被实现为一个独立于Activity的对象，并且可以在多个activity中使用,但一个给定的fragment实例是直接绑定到包含它的activity的。 特别的fragment可以使用 getActivity() 访问Activity实例， 并且容易地执行比如在activity layout中查找一个view的任务。如下面的代码：

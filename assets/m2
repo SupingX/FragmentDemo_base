@@ -1,0 +1,6 @@
+1、管理Fragment
+要在activity中管理fragment,需要使用FragmentManager. 通过调用activity的getFragmentManager()取得它的实例.
+
+•可以通过FragmentManager做一些事情, 包括: 使用findFragmentById()(用于在activity layout中提供一个UI的fragment)或findFragmentByTag()(适用于有或没有UI的fragment)获取activity中存在的fragment。
+•将fragment从后台堆栈中弹出, 使用 popBackStack() (模拟用户按下BACK 命令)。
+•使用addOnBackStackChangeListener()注册一个监听后台堆栈变化的listener。

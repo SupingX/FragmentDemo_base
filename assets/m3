@@ -1,0 +1,2 @@
+2、处理Fragment事务
+关于在activity中使用fragment的很强的一个特性是：根据用户的交互情况,对fragment进行添加、移除、替换以及执行其他动作。提交给activity的每一套变化被称为一个事务，可以使用在FragmentTransaction中的 API 处理。我们也可以保存每一个事务到一个activity管理的backstack，允许用户经由fragment的变化往回导航(类似于通过 activity往后导航)。
